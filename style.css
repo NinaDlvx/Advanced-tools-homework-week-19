@@ -99,3 +99,23 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 56px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .email-link {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  .primary-link {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+  }
+}
